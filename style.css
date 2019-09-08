@@ -1,0 +1,136 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  margin-top: 0px;
+}
+
+
+.option_line_name {
+  float: left;
+  min-height: 30px;
+  padding-right: 10px;
+  padding-left: 40px;
+}
+
+.option {
+  float: left;
+  width: 50px;
+  height: 30px;
+  border: 1px solid;
+  margin-right: -1px;
+  margin-bottom: -1px;
+}
+
+.option input {
+  display: none;
+}
+
+.option input + div {
+  width: 100%;
+  height: 100%;
+  border-color: black;
+  background-color: #f0f0f0;
+  font-size: 0;
+}
+
+/*.option input:checked + div {
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}*/
+
+input[type=text] {
+  width: 300px;
+  background-color: #f0f0f0;
+  border: 1px solid;
+  border-radius: 5px;
+  height: 20px;
+  font-family: sans-serif;
+}
+
+input[type=text].text {
+  width: 200px;
+}
+
+.form_part {
+  margin-bottom: 20px;
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.form_subpart {
+  border-top: 1px solid;
+}
+
+.center_container {
+  text-align: center;
+}
+
+textarea {
+  align: center;
+  width: 90%;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+                    font-family: sans-serif;
+}
+
+input#submitButton {
+  width: 80%;
+  height: 30px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+p.dataprotection {
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+     z { width: 30em; padding-left: 45px;  }
+
+     #header {
+       background-color: #1abc9c;
+       height: 150px;
+       line-height: 150px
+     }
+
+     #header a {
+       color: white;
+       text-decoration: none;
+
+       text-transform: uppercase;
+       letter-spacing: 0.1em;
+     }
+
+     #header a:hover {
+       color: #222;
+     }
+
+     #header-title {
+       display: block;
+       float: left;
+
+       font-size: 20px;
+       font-weight: bold;
+     }
+
+     #header-nav {
+       display: block;
+       float: right;
+       margin-top: 0
+     }
+
+     #header-nav li {
+       display: inline;
+       padding-left: 20px
+     }
+
+     .container {
+       max-width: 1000px;
+       margin: 0 auto;
+     }
